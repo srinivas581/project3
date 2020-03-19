@@ -1,0 +1,42 @@
+.center
+{
+    width: 250px;
+    margin: 180px auto;
+    position: absolute;
+    top: 0;
+}
+.mr-bt
+{
+    margin-bottom: 20px;
+    }
+p{
+    float: right;
+    cursor: pointer;
+    width: 30%;
+    font-size: smaller;
+    padding: 4px;
+}
+
+.bg-img
+{
+    position: relative;
+}
+.f-c
+{
+    text-align: center;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 120%;
+}
+.form-class
+{
+    margin-left: 500px;
+    width: 250px;
+    margin-top: 50px;
+}
+.login
+{
+    border-radius: 30px;
+    width: 70px;
+}

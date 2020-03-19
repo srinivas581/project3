@@ -1,0 +1,149 @@
+<div class="container">
+
+
+  <div class="container-align">
+    <div class="groove">
+      <article class=" style1 ">
+        <h1>Enter your Credentials</h1>
+
+        <form class="form-align" [formGroup]="registerForm" (ngSubmit)="Account()">
+
+          <div class="form-group">
+
+            <div class="col-md-12 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <i class="fa fa-user"></i>
+                </span>
+                <input placeholder="Full Name" class="form-control"required type="text" formControlName="fname">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+              <div class="col-md-12 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon">
+                    <i class="fa fa-birthday-cake"></i>
+                  </span>
+                  <input placeholder="Date of Birth" class="form-control"required type="date" formControlName="dob">
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-12 inputGroupContainer">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-graduation-cap"></i></span>
+                    <select class="custom-class style12"  placeholder="qualification" formControlName="education"required>
+                      <option selected="">B.Tech</option>
+                      <option>M.Tech</option>
+                      <option>B.Sc</option>
+                      <option>M.Sc</option>
+                      <option>B.C.A</option>
+                      <option>M.C.A</option>
+                      </select>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                  <div class="col-md-12 inputGroupContainer">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                      <select class="custon-select" style="max-width:80px;" formControlName="countryCode"required>
+                        <option selected="" value="ind">+91</option>
+                        <option value="us">+1</option>
+                        <option value="uk">+2</option> 
+                        <option value="er">+3</option>
+                        <option value="pk">+81</option>
+                        <option value="if">+62</option>
+                        <option value="indss">+45</option>
+                      </select>
+                      <input type="number" min="10" max="10" placeholder="Phone number" class="form-control"required formControlName="mobile">
+                    </div>
+                  </div>
+                </div>
+
+              
+          <div class="form-group">
+            <div class="col-md-12 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <i class="fa fa-envelope"></i>
+                </span>
+                <input placeholder="Email" class="form-control"required type="email" formControlName="email">
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="form-group">
+            <div class="col-md-12 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <i class="fa fa-lock"></i>
+                </span>
+                <input placeholder="password" class="form-control"required type="password" formControlName="password">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+
+            <div class="col-md-12 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <i class="fa fa-lock"></i>
+                </span>
+                <input placeholder="confirm password" class="form-control"required type="password" formControlName="cpassword">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary btm-block"> Create Account </button>
+          </div>
+
+
+        </form>
+
+        <div class="bottom-align">
+          <p class="divider-text">
+            <span class="bg-light">OR</span>
+          </p>
+          <div class="col-sm-9 f-icons">
+
+              <div class="col-sm-3 icon1">
+                <a target="_blank" href="https://www.facebook.com/">
+                  <i class="fa fa-facebook"></i>
+                </a>
+  
+              </div>
+  
+              <div class="col-sm-3 icon2">
+                <a target="_blank" href="https://twitter.com/login">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </div>
+  
+              <div class="col-sm-3 icon3">
+                <a target="_blank" href="https://www.instagram.com/accounts/login/">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          <h5>Login with</h5>
+          
+        </div>
+
+
+      </article>
+    </div>
+
+  </div>
+
+</div>

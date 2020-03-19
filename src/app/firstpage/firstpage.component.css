@@ -1,0 +1,22 @@
+.bg-img{
+    /* background-image: url("./../assets/nature.jpg"); */
+    /* height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    position: relative;
+}
+.some-text{
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    right: 32%;
+    bottom: 50%;
+    color: aliceblue;
+}
+.btm
+{
+    padding: 7px 90px;
+    border-radius: 20px;
+    font-family: cursive;
+}
